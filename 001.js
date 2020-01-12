@@ -7,6 +7,7 @@ function multiplesOf3and5(number) {
     const sum = numbers.filter(number => number % 3 === 0 || number % 5 === 0).reduce((acc, number) => {
         return acc + number;
     });
+    return sum;
 }
 
 multiplesOf3and5(1000);
